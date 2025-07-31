@@ -1,6 +1,7 @@
-# Bundle-1-ExerciseId CommandLine
-  -- -----------
-   1 try { . "c:\Users\USER\AppData\Local\Programs\Microsoft VS Code\resources\app... 
+# TheGym-Exercise 
+## Bundle 1 
+### Exercise 1
+  ```bash 
    2 git init
    3 git status
    4 ls
@@ -30,9 +31,9 @@
   28 git pull origin main --allow-unrelated-histories
   29 git push origin main
   30 git status
-
-   -- -----------
-   1 try { . "c:\Users\USER\AppData\Local\Programs\Microsoft VS Code\... 
+  ```
+  ## Exercise 2
+  ```bash
    2 git switch m
    3 git status
    4 git switch main
@@ -58,10 +59,10 @@
   24 git brach
   25 git branch
   26 git status
-  
-  Bundle 1 Exercise 2
-  -----------------------------
-  1 try { . "c:\Users\USER\AppData\Local\Programs\Microsoft VS Code\resources\app... 
+  ```
+## Bundle 2 
+### Exercise 1
+  ```bash
    2 git status
    3 git stash push -m "home.html Stash" -u
    4 git stash list
@@ -88,3 +89,61 @@
   25 git stash pop "stash@{0}"
   26 git reset --hard
   27 git status
+```
+## Exercise 2
+```bash
+28 history
+  29 git branch
+  30 git pull origin main
+  31 git branch ft/bundle-2
+  32 git branch
+  33 git checkout ft/bundle-2
+  34 git add ft/bundle-2
+  35 git status
+  36 git add services.html
+  37 git status
+  38 git commit -m "created services"
+  39 git push origin ft/bundle-2
+  40 git branch
+  41 git checkout main
+  42 git branch
+  43 git pull origin main
+  44 git branch ft/service-redesign
+  45 git branch
+  46 git checkout ft/service-redesign
+  47 git branch
+  48 git add ft/service-redesign
+  49 git status
+  50 git add services.html
+  51 git status
+  52 git commit -m "Add new changes to the service.html page"
+  53 git push origin ft/service-redesign
+  54 git checkout main
+  55 git branch
+  56 git status
+  57 git add services.html
+  58 git status
+  59 git commit -m "Added body content"
+  60 git push
+  61 git add services.html
+  62 git commit -m "feat: adding some changes to service"
+  63 git push
+  64 git branch
+  65 git checkout ft/service-redesign
+  66 git add services.html
+  67 git commit -m "feat: adding previous services"
+  68 git push
+  69 git push --set-upstream origin ft/service-redesign
+  70 git branch
+  71 git diff main..ft/service-redesign
+  72 git merge main
+  73 git branch
+  74 git checkout main
+  75 git branch
+  76 git checkout main
+  77 git commit -m "Merge branch 'main' into ft/service-redesign"
+  78 git checkout main
+  79 git push
+  80 git checkout ft/service-redesign
+  81 git push
+  ```
