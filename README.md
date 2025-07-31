@@ -58,3 +58,33 @@
   24 git brach
   25 git branch
   26 git status
+  
+  Bundle 1 Exercise 2
+  -----------------------------
+  1 try { . "c:\Users\USER\AppData\Local\Programs\Microsoft VS Code\resources\app... 
+   2 git status
+   3 git stash push -m "home.html Stash" -u
+   4 git stash list
+   5 git status
+   6 git stash pop
+   7 git stash push -m "home.html Stash" -u
+   8 git stash push -m "about.html stashed" -u
+   9 git stash list
+  10 git stash push -m "team.html stashed" -u
+  11 git stash list
+  12 git stash pop "stash@{1}"
+  13 git stash "stash@{2"
+  14 git stash pop "stash@{2"
+  15 git stash pop "stash@{2}"
+  16 gist stash list
+  17 git stash list
+  18 git stash pop "stash@{1}"
+  19 git add .
+  20 git status
+  21 git commit -m "about and home page"
+  22 git branch
+  23 git push
+  24 git stash list
+  25 git stash pop "stash@{0}"
+  26 git reset --hard
+  27 git status
