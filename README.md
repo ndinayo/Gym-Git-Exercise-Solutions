@@ -147,3 +147,94 @@
   80 git checkout ft/service-redesign
   81 git push
   ```
+  ## Bundle 3 
+   ### Exercise 1
+  ```bash
+   
+   2 clear
+   3 git branch
+   4 git branch ft/team-page
+   5 git branch
+   6 history
+   7 git status
+   8 git branch
+   9 git checkout ft/team-page
+  10 git branch
+  11 git status
+  12 git branch
+  13 git add team.html
+  14 git status
+  15 git commit -m "added team.html"
+  16 git push origin ft/team-page
+  17 git checkout main
+  18 git branch ft/contact-page
+  19 git branch
+  20 git checkout ft/team-page
+  21 git log
+  22 git log ft/team-page --oneline
+  23 git checkout ft/contact-page
+  24 git cherry-pick 8e69b56
+  25 git status
+  26 git add team.html
+  27 git commit -m "modified team.html"
+  28 git branch
+  29 git push origin ft/contact-page
+  30 git branch ft/faq-page
+  31 git branch
+  32 git checkout ft/faq-page
+  33 git branch
+  34 git status
+  35 git commit -m "Created faq.html and modified it"
+  36 git add faq.html
+  37 git status
+  38 git commit -m "added faq.html and modified it"
+  39 git branch
+  40 git push origin ft/faq-page
+  41 git branch
+  42 git checkout ft/team-page
+  43 git revert 8e69b56
+  44 git log
+  45 git status
+  46 git push origin ft/team-page
+  47 git checkout main
+  ```
+  ### Exercise 2
+  ```bash
+   history
+  49 git checkout ft/home-page-redesign
+  50 git branch
+  51 git checkout ft/faq-page
+  52 git branch ft/home-page-redesign
+  53 git checkout main
+  54 git status
+  55 git add home.html
+  56 git status
+  57 git commit -m "added home page content"
+  58 git push
+  59 git branch
+  60 git checkout ft/home-page-redesign
+  61 git branch
+  62 git rebase main
+  63 git status
+  64 git stash
+  65 git rebase main
+  66 git pop
+  67 git stash list
+  68 git stash pop stash@{0}
+  69 git stash list
+  70 git stash pop
+  71 git status
+  72 git add home.html
+  73 git status
+  74 git commit -m " Added paragraph "
+  75 git branch
+  76 git push origin ft/home-page-redesign
+  77 git log
+  78 git log ft/home-page-redesign --online
+  79 git log ft/home-page-redesign online
+  80 git log ft/home-page-redesign --online
+  81 git log ft/home-page-redesign --oneline
+  82 git checkout main
+  83 git status
+  ```
+  
