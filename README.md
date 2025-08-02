@@ -237,4 +237,55 @@
   82 git checkout main
   83 git status
   ```
+  ## Bundle 4 
+  ### Exercise 1
+  ```bash
+  1 try 
+   2 git checkout main
+   3 git remote add git-copy git@github.com:ndinayo/bundle_e...
+   4 git remote
+   5 git status
+   6 git add home.html
+   7 git status
+   8 git commit -m "added login"
+   9 git push origin
+  10 git push git
+  11 git push git-copy
+  12 git push git-copy
+  13 dir ~/.ssh
+  14 ssh-keygen -t ed25519 -C "ndinayoeric1@gmail.com"
+  15 ssh-add ~/.ssh/id_ed25519
+  16 Start-Service ssh-agent
+  17 git push git-copy
+  ```
+  ### Exercise 2
+  ```bash
+  18 history
+  19 git checkout -b ft/footer
+  20 git statu
+  21 git status
+  22 git add  footer.html
+  23 git status
+  24 git commit "created footer.html"
+  25 git commit -m "created footer.html"
+  26 git status
+  27 git add  footer.html
+  28 git commit -m "added  footer.html content"
+  29 git branch
+  30 git push origin ft/footer
+  31 git branch main
+  32 git branch main
+  33 git branch
+  34 git checkout main
+  35 git checkout -b ft/squashing
+  36 git branch
+  37 git git merge --squash ft/footer
+  38 git merge --squash ft/footer
+  39 git log
+  40 git status
+  41 git commit -m "footer changes squashing"
+  42 git branch
+  43 git push origin ft/squashing
+```
+
   
